@@ -1,0 +1,235 @@
+/* ============ body =========== */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; /* very useful!!! */
+  }
+
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  h2 {
+      text-align: center;
+      text-decoration: underline;
+  }
+
+a:hover {
+    text-decoration: none;
+}
+
+.col-xs-12 {
+    margin-top: 60px;
+}
+
+
+/* ============ header =========== */
+.navbar-inverse {
+    margin-bottom:0;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar-nav>li {
+    float: none;
+    display: inline-block;
+  }
+
+  @media (max-width: 768px) {
+    .navbar-nav>li {
+        display: block;
+    }
+  }
+
+.header-container {
+    background-image:url(../image/Jason_1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.header-text {
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    color: white;
+}
+
+
+/* ============ intro =========== */
+
+.intro-text {
+    padding: 30px;
+}
+
+.intro-image {
+    padding: 80px 10px 10px 40px;
+}
+
+.intro-image-frame {
+    box-shadow: 4px 4px 6px 4px rgb(94, 94, 94);
+ }
+
+ .intro-image-frame img {
+    width: 100%;
+ }
+
+.intro-skill {
+    background-color: rgb(248, 248, 248);
+    padding: 30px;
+    box-shadow: 4px 4px 6px 4px rgb(94, 94, 94);
+}
+
+@media (max-width: 768px) {
+    .intro-skill {
+        box-shadow: none;
+    }
+    .intro-image {
+        padding: 0 60px 0 60px;
+    }
+  }
+
+.btn-primary.btn-block {
+    margin-top: 20px;
+    background-color: rgb(63, 63, 63);
+    border: none;
+}
+
+.btn-primary.btn-block:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.progress {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(248, 248, 248);
+    box-shadow: none;
+}
+
+/* ============ Working Picture =========== */
+.working-picture {
+    width:100%;
+    margin-top: 60px;
+}
+
+/* ============ Education =========== */
+.education, .project-experience {
+    padding: 30px;
+}
+
+.education.col-sm-9 {
+    border-left: 1px dashed black;
+}
+
+@media (max-width: 768px) {
+    #education-year {
+        text-align: center;
+        padding-top: 0;
+    }
+    .education {
+        margin-top: 0;
+    }
+}
+
+/* ============ Project & Portfolio =========== */
+
+.thumbnail {
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding:6px;
+  }
+
+.project-text {
+    text-align: center;
+    padding-top: 15px;
+}
+
+  .code-image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .project-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(34, 34, 34);
+  }
+
+  .thumbnail:hover .project-overlay {
+    opacity: 0.8;
+  }
+
+  .overlay-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+  @media (max-width: 768px) {
+    .thumbnail {
+        margin: 0 50px;
+    }
+}
+@media (max-width: 320px) {
+.project-text {
+    display: none;
+}
+}
+
+/* ============ Contact =========== */
+.contact {
+    text-align: center;
+}
+
+
+/* ============ footer =========== */
+#footer {
+    position: relative;
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+#footer p {
+    text-align: center;
+}
+
+#footer a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: underline
+}
+
+#footer-button {
+    position: absolute;
+    left:50%;
+    transform: translate(-50%);
+}
+
