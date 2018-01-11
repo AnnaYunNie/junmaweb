@@ -55,6 +55,7 @@
   </nav>
 
   <div class="header-container">
+    <div class="head-overlay"></div>
     <div class="header-text">
       <h1>Jun Ma</h1>
       <p>Software Engineer</p>
@@ -104,7 +105,7 @@
       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
         <div class="intro-image">
           <div class="intro-image-frame">
-            <img class="my-intro-picture" src="image/Jason_3.jpg" alt="mypicture2">
+            <img class="my-intro-picture" src="image/J9.jpg" alt="mypicture2">
           </div>
         </div>
       </div>
@@ -144,7 +145,7 @@
 
 
       <div class="resume col-xs-12 col-sm-offset-4 col-sm-4 col-md-offset-4 col-md-4 col-lg-offset-4 col-lg-4">
-        <a href="image/Jun Ma.png" alt="my-printable-resume" target="_black">
+        <a href="image/Jun Ma.jpg" alt="my-printable-resume" target="_black">
           <button type="button" class="btn btn-primary btn-block">Printable Resume</button>
         </a>
       </div>
@@ -155,7 +156,7 @@
 
   <!-- Working Picture -->
   <div class="working-picture">
-    <img class="my-working-image" src="image/Jason_4.jpg" alt="workingpicture">
+    <div class="moving-picture"></div>
   </div>
 
 
@@ -227,111 +228,218 @@
 
 
   <!-- portfolio -->
+
   <div class="portfolio-container container-fluid">
     <div class="row">
       <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8" style="margin-top: 6px">
-        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3" style="margin-top: 6px">
-          <div class="thumbnail">
-            <img src="image/code1.png" alt="code" class="code-image">
-            <div class="project-text">
-              <p>loremf naninflkwgbj</p>
-            </div>
-            <a href="#">
-              <div class="project-overlay">
-                <div class="overlay-text">see details</div>
+
+        <div class="modal fade" id="enlargeImageModal1" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
               </div>
-            </a>
+              <div class="modal-body">
+                <img src="image/code1.jpg" class="enlargeImageModalSource1" style="width: 100%;">
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3" style="margin-top: 6px">
           <div class="thumbnail">
-            <img src="image/code1.png" alt="code" class="code-image">
+            <img src="image/code1_small.jpg" alt="code" class="code-image">
             <div class="project-text">
               <p>loremf naninflkwgbj</p>
             </div>
-            <a href="#">
-              <div class="project-overlay">
-                <div class="overlay-text">see details</div>
+            <div class="project-overlay one">
+              <div class="overlay-text">see details</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="enlargeImageModal2" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
               </div>
-            </a>
+              <div class="modal-body">
+                <img src="image/code2.jpg" class="enlargeImageModalSource2" style="width: 100%;">
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3" style="margin-top: 6px">
           <div class="thumbnail">
-            <img src="image/code1.png" alt="code" class="code-image">
+            <img src="image/code2_small.jpg" alt="code" class="code-image">
             <div class="project-text">
               <p>loremf naninflkwgbj</p>
             </div>
-            <a href="#">
-              <div class="project-overlay">
-                <div class="overlay-text">see details</div>
+            <div class="project-overlay two">
+              <div class="overlay-text">see details</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="enlargeImageModal3" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal"
+          aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
               </div>
-            </a>
+              <div class="modal-body">
+                <img src="image/code3.jpg" class="enlargeImageModalSource3" style="width: 100%;">
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3" style="margin-top: 6px">
           <div class="thumbnail">
-            <img src="image/code1.png" alt="code" class="code-image">
+            <img src="image/code3_small.jpg" alt="code" class="code-image">
             <div class="project-text">
               <p>loremf naninflkwgbj</p>
             </div>
-            <a href="#">
-              <div class="project-overlay">
-                <div class="overlay-text">see details</div>
+            <div class="project-overlay three">
+              <div class="overlay-text">see details</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="enlargeImageModal4" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal"
+          aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
               </div>
-            </a>
+              <div class="modal-body">
+                <img src="image/code4.jpg" class="enlargeImageModalSource4" style="width: 100%;">
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3" style="margin-top: 6px">
           <div class="thumbnail">
-            <img src="image/code1.png" alt="code" class="code-image">
+            <img src="image/code4_small.jpg" alt="code" class="code-image">
             <div class="project-text">
               <p>loremf naninflkwgbj</p>
             </div>
-            <a href="#">
-              <div class="project-overlay">
-                <div class="overlay-text">see details</div>
+            <div class="project-overlay four">
+              <div class="overlay-text">see details</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="enlargeImageModal5" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
               </div>
-            </a>
+              <div class="modal-body">
+                <img src="image/code5.jpg" class="enlargeImageModalSource5" style="width: 100%;">
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3" style="margin-top: 6px">
           <div class="thumbnail">
-            <img src="image/code1.png" alt="code" class="code-image">
+            <img src="image/code5_small.jpg" alt="code" class="code-image">
             <div class="project-text">
               <p>loremf naninflkwgbj</p>
             </div>
-            <a href="#">
-              <div class="project-overlay">
-                <div class="overlay-text">see details</div>
+            <div class="project-overlay five">
+              <div class="overlay-text">see details</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="enlargeImageModal6" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
               </div>
-            </a>
+              <div class="modal-body">
+                <img src="image/code6.jpg" class="enlargeImageModalSource6" style="width: 100%;">
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3" style="margin-top: 6px">
           <div class="thumbnail">
-            <img src="image/code1.png" alt="code" class="code-image">
+            <img src="image/code6_small.jpg" alt="code" class="code-image">
+            <div class="project-text">
+              <p>loremf naninflkwgbj</p>
+            </div>
+            <div class="project-overlay six">
+              <div class="overlay-text">see details</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="enlargeImageModal7" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <img src="image/code7.jpg" class="enlargeImageModalSource7" style="width: 100%;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3" style="margin-top: 6px">
+          <div class="thumbnail">
+            <img src="image/code7_small.jpg" alt="code" class="code-image">
             <div class="project-text">
               <p>loremf naninfl</p>
             </div>
-            <a href="#">
-              <div class="project-overlay">
-                <div class="overlay-text">see details</div>
+            <div class="project-overlay seven">
+              <div class="overlay-text">see details</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal fade" id="enlargeImageModal8" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+                </button>
               </div>
-            </a>
+              <div class="modal-body">
+                <img src="image/code8.jpg" class="enlargeImageModalSource8" style="width: 100%;">
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3" style="margin-top: 6px">
           <div class="thumbnail">
-            <img src="image/code1.png" alt="code" class="code-image">
+            <img src="image/code8_small.jpg" alt="code" class="code-image">
             <div class="project-text">
               <p>loremf naninflkwgbj</p>
             </div>
-            <a href="#">
-              <div class="project-overlay">
-                <div class="overlay-text">see details</div>
-              </div>
-            </a>
+            <div class="project-overlay eight">
+              <div class="overlay-text">see details</div>
+            </div>
           </div>
         </div>
 
@@ -340,27 +448,27 @@
   </div>
 
   <!-- contact start -->
-  <div class="container" >
+  <div class="container">
     <div class="row">
 
-        <div id="contact">
-          <h2>Contact Me</h2>
-        </div>
+      <div id="contact">
+        <h2>Contact Me</h2>
+      </div>
 
-        <div class="contact col-xs-12 col-sm-offset-4 col-sm-4 col-md-offset-4 col-md-4 col-lg-offset-4 col-lg-4">
-          <p>Phone: +1(646) 642-3673</p>
-          <br>
-          <p>Email: majun900313@gmail.com
-            <br>majun0313@hotmail.com</p>
-          <br>
-          <p>Website:
-            <a href="index.html">https://www.junma.com</a>
-          </p>
-          <br>
-          <p>Github:
-            <a href="https://github.com/JasonJunMa" target="_blank">https://github.com/JasonJunMa</a>
-          </p>
-        </div>
+      <div class="contact col-xs-12 col-sm-offset-4 col-sm-4 col-md-offset-4 col-md-4 col-lg-offset-4 col-lg-4">
+        <p>Phone: +1(646) 642-3673</p>
+        <br>
+        <p>Email: majun900313@gmail.com
+          <br>majun0313@hotmail.com</p>
+        <br>
+        <p>Website:
+          <a href="index.html">https://www.junma.com</a>
+        </p>
+        <br>
+        <p>Github:
+          <a href="https://github.com/JasonJunMa" target="_blank">https://github.com/JasonJunMa</a>
+        </p>
+      </div>
 
     </div>
   </div>
@@ -378,6 +486,9 @@
       </button>
     </a>
   </div>
+
+
+
 
 
 </body>
