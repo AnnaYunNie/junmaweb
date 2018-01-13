@@ -156,9 +156,9 @@ a:hover {
 
 .moving-picture {
     background: url("../image/moving/J2.png") repeat-x;
-    width: 5076px;
-    height: 300px;
-    animation: slide 60s linear infinite;
+    width: 4464px;
+    height: 280px;
+    animation: slide 30s linear infinite;
 }
 
 @keyframes slide {
@@ -166,7 +166,7 @@ a:hover {
       transform: translate3d(0, 0, 0);
     }
     100%{
-      transform: translate3d(-1692px, 0, 0);
+    transform: translate3d(-2232px, 0, 0);
     }
   }
 
