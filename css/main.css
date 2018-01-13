@@ -88,7 +88,7 @@ a:hover {
     color: white;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1600px) {
 .header-container {
     background-attachment: fixed;
 }
