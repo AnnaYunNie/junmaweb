@@ -75,8 +75,8 @@ a:hover {
 .head-overlay {
     background-color: rgba(36, 36, 36, 0.3);
     width: 100%;
-    max-height: 800px;
-    height:800px;
+    max-height: 750px;
+    height:750px;
 }
 
 .header-text {
@@ -248,6 +248,9 @@ a:hover {
 @media only screen and (max-width: 768px) {
     .thumbnail {
         margin: 0 50px;
+    }
+    .head-overlay {
+        height:650px;
     }
 }
 
