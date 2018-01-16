@@ -45,6 +45,12 @@ a:hover {
     border-radius: 0%;
     border: none;
     background-color: rgb(58, 58, 58);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    float: left;
 }
 
 .navbar-nav {
