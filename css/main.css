@@ -45,12 +45,6 @@ a:hover {
     border-radius: 0%;
     border: none;
     background-color: rgb(58, 58, 58);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 99;
-    float: left;
 }
 
 .navbar-nav {
@@ -106,19 +100,6 @@ a:hover {
     padding: 30px;
 }
 
-.intro-image {
-    padding: 0 60px 0 60px;
-}
-
-.intro-image-frame {
-    box-shadow: 4px 4px 6px 4px rgb(94, 94, 94);
-}
-
-.intro-image-frame img {
-    max-width: 1500px;
-    width: 100%;
-}
-
 .intro-skill {
     background-color: rgb(248, 248, 248);
     padding: 30px;
@@ -164,7 +145,7 @@ a:hover {
 }
 
 .moving-picture {
-    background: url("../image/moving/J2.png") repeat-x;
+    background: url("../image/moving/J3.png") repeat-x;
     width: 4464px;
     height: 280px;
     animation: slide 30s linear infinite;

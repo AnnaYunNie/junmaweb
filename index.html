@@ -23,7 +23,7 @@
 <body>
 
   <!-- header -->
-  <nav class="navbar navbar-inverse" id="navbar">
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -67,7 +67,7 @@
   <div class="container">
     <div class="row">
 
-      <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8">
+      <div class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-1 col-md-10 col-lg-offset-1 col-lg-10">
         <div class="intro-text" id="intro">
           <h2>I'm Jun Ma</h2>
 
@@ -97,16 +97,8 @@
 
           <p>Now, computer programming becomes a part of my life. My goal is to develop
             <strong>high-quality software</strong> and dedicate my whole life to
-            <strong>making the world better</strong>.</p>
+            <strong>making the world better</strong>.
           </p>
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-        <div class="intro-image">
-          <div class="intro-image-frame">
-            <img class="my-intro-picture" src="image/J9.jpg" alt="mypicture2">
-          </div>
         </div>
       </div>
 
@@ -170,11 +162,15 @@
           </div>
         </div>
         <div class="education col-xs-11 col-sm-9 col-md-9 col-lg-9">
-          <h4>Bachelor of Computer Science</h4>
+          <h4>Bachelor Degree of Science</h4>
           <h5>
             <i>Salisbury University</i>
           </h5>
-          <p>I have studied at Salisbury University from 2014 to 2017. I majored in Computer Science. Graduate with Cum Laude. I took Comiler Construction, High Performance Computer, Software Development etc.</p>
+          <p>
+            <b>Major: Computer Science.</b>
+            <br>Graduated Cum Laude.
+            <br>Coursework: Advanced Data Structures | System Software | Software Engineering | Operating Systems | Database
+            Management Systems | Computer Networks | HPC computing | Compiler Construction | etc.</p>
         </div>
       </div>
 
@@ -185,11 +181,13 @@
           </div>
         </div>
         <div class="education col-xs-11 col-sm-9 col-md-9 col-lg-9">
-          <h4>Bachelor Degree of Electronic Engineering</h4>
+          <h4>Bachelor Degree of Science</h4>
           <h5>
             <i>AnQing Normal University</i>
           </h5>
-          <p>I majored in Electronic Engineering in AnQing University in China from 2009 to 2013. I took Communication Systems, Analog circuit, Digital circuit etc. </p>
+          <p>
+            <b>Major: Electrical Engineering.</b>
+            <br>Coursework:Communication Systems | Analog circuit | Digital circuit | etc. </p>
         </div>
       </div>
 
@@ -205,15 +203,37 @@
           <h2>Projects</h2>
           <br>
           <p>
-            <strong>Game Development use Unity.</strong> I have created a game using Unity with teammates in one academic year. We
-            used Agile software development approach to guide us. I wrote all the C# script to control the game like move
-            the character and pick up items. It improved my problem-solving skill within a group.</p>
-          <p>
-            <strong>High Performance Computer.</strong> I have learned most part of the HPC and built a HPC with other students.
-            I created a Game Of Life and a tokenizer using JAVA, C, and Python, with MPI library.</p>
-          <p>
-            <strong>Compiler Construction.</strong> I have converted a Pascal compiler written in Java to a C compiler, and learned
-            how the compiler works. The project enhanced my ability to read and write huge programs.</p>
+            <strong>Software Engineering.</strong>
+            <ul>
+              <li>Designed and created a role-playing game in Agile Environment
+                <li>Used self taught skills at Unity3D and C#/JavaScript for game development
+                  <li>Blender, Photoshop, and Tiled used to produce 3D and 2D object
+            </ul>
+            <p>
+              <strong>High Performance Computer.</strong>
+              <ul>
+                <li>Built a distributed HPC in both hardware and software
+                  <li>Combined the cluster with WareWulf in Debian
+                    <li>Developed a GameOfLife and a tokenizer using Java/C++/Python alone with MPI library
+                      <li>Learned Slurm, Torque.
+              </ul>
+            </p>
+            <p>
+              <strong>Compiler Construction.</strong>
+              <ul>
+                <li>Designed and build a subset of C compiler using Java</li>
+                <li>Used UML to draw the outline of class</li>
+                <li>Got understand about the JVM</li>
+              </ul>
+            </p>
+            <p>
+              <strong>Database.</strong>
+              <ul>
+                <li>Designed a hospital webpage by PHP which can access the hospital database</li>
+                <li>Used HTML/CSS/JavaScript for web development</li>
+                <li>Created a hospital database used MySQL</li>
+              </ul>
+            </p>
         </div>
       </div>
 
@@ -279,8 +299,7 @@
           </div>
         </div>
 
-        <div class="modal fade" id="enlargeImageModal3" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal"
-          aria-hidden="true">
+        <div class="modal fade" id="enlargeImageModal3" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
           <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -306,8 +325,7 @@
           </div>
         </div>
 
-        <div class="modal fade" id="enlargeImageModal4" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal"
-          aria-hidden="true">
+        <div class="modal fade" id="enlargeImageModal4" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
           <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header">
@@ -435,6 +453,20 @@
               <div class="overlay-text">see details</div>
             </div>
           </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3" style="margin-top: 6px">
+          <a href="https://github.com/JasonJunMa" style="color:black">
+            <div class="thumbnail" style="border:none">
+              <img src="image/code9_small.jpg" alt="code" class="code-image">
+              <div class="project-text">
+                <p>More in Github</p>
+              </div>
+              <div class="project-overlay nine">
+                <div class="overlay-text">view more in Github</div>
+              </div>
+            </div>
+          </a>
         </div>
 
       </div>
