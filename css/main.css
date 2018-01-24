@@ -138,14 +138,6 @@ a:hover {
 
 
 /* ============ Working Picture =========== */
-.working-picture {
-    display: none;
-}
-
-  @media only screen and (max-width: 768px) {
-    .working-picture {
-        display: block;
-    }
     .working-picture {
         width: 100%;
         overflow: hidden;
@@ -165,10 +157,6 @@ a:hover {
         transform: translate3d(-2232px, 0, 0);
         }
       }
-    video {
-        display: none;
-    }
-}
 
 /* ============ Education =========== */
 
